@@ -41,6 +41,7 @@ fi
 echo -e $Y" [*] Downloading oh-my-zsh Files..."$C
 echo
 git clone git://github.com/robbyrussell/oh-my-zsh.git $HOME/.oh-my-zsh --depth 1
+echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
 echo
 echo -e $G" [*] Downloaded Successfully..."$C
 echo
